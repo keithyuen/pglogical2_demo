@@ -1,0 +1,3 @@
+  psql -h <host> -U postgres -d testdb -f test_pg_failover_slots.sql
+
+  

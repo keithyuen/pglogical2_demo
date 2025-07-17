@@ -1,0 +1,89 @@
+services:
+  pg16_primary:
+    build:
+      context: .
+      dockerfile: pg16.Dockerfile
+    container_name: pg16_primary
+    hostname: pg16_primary
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - ./primary/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./primary/postgresql.conf:/var/lib/pgsql/16/data/postgresql.conf
+      - ./shared/pg_hba.conf:/var/lib/pgsql/16/data/pg_hba.conf
+      - pg16_primary_data:/var/lib/pgsql/16/data
+      - ./logs:/logs
+    ports:
+      - "5414:5432"
+    networks:
+      - pg_net
+
+  pg16_subscriber:
+    build:
+      context: .
+      dockerfile: pg16.Dockerfile
+    container_name: pg16_subscriber
+    hostname: pg16_subscriber
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - ./subscriber/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./subscriber/postgresql.conf:/var/lib/pgsql/16/data/postgresql.conf
+      - ./shared/pg_hba.conf:/var/lib/pgsql/16/data/pg_hba.conf
+      - pg16_subscriber_data:/var/lib/pgsql/16/data
+      - ./logs:/logs
+    ports:
+      - "5415:5432"
+    networks:
+      - pg_net
+
+  pg16_standby:
+    build:
+      context: .
+      dockerfile: pg16.Dockerfile
+    container_name: pg16_standby
+    hostname: pg16_standby
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - ./standby/postgresql.conf:/config/postgresql.conf
+      - ./shared/pg_hba.conf:/config/pg_hba.conf
+      - pg16_standby_data:/var/lib/pgsql/16/data
+      - ./logs:/logs
+    ports:
+      - "5416:5432"
+    networks:
+      - pg_net
+    command: >
+      bash -c "
+        rm -rf /var/lib/pgsql/16/data/*
+        until psql -h pg16-primary.pg-ha-env.orb.local -p 5432 -U postgres -d postgres -c 'SELECT 1;' >/dev/null 2>&1; do
+          echo 'Waiting for pg16_primary to accept SQL connections...'
+          sleep 2
+        done
+        echo 'Primary is ready, starting base backup...'
+        until /usr/pgsql-16/bin/pg_basebackup -D /var/lib/pgsql/16/data -R --slot=replication_slot --host=pg16-primary.pg-ha-env.orb.local --port=5432 -U postgres -w
+        do
+          echo 'Waiting for primary to connect...'
+          sleep 1s
+        done
+        echo 'Backup done, copying configs and starting replica...'
+        cp /config/postgresql.conf /var/lib/pgsql/16/data/postgresql.conf
+        cp /config/pg_hba.conf /var/lib/pgsql/16/data/pg_hba.conf
+        chmod 0700 /var/lib/pgsql/16/data
+        /usr/pgsql-16/bin/postgres -D /var/lib/pgsql/16/data
+      "
+    depends_on:
+      - pg16_primary
+
+networks:
+  pg_net:
+    driver: bridge
+
+volumes:
+  pg16_primary_data:
+  pg16_subscriber_data:
+  pg16_standby_data:

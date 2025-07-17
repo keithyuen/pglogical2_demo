@@ -1,0 +1,33 @@
+2025-06-05 10:42:05.542 GMT,,,9,,6841747d.9,1,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"starting PostgreSQL 14.18 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-5), 64-bit",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.542 GMT,,,9,,6841747d.9,2,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.542 GMT,,,9,,6841747d.9,3,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on IPv6 address ""::"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.542 GMT,,,9,,6841747d.9,1,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"starting PostgreSQL 14.18 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-5), 64-bit",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.543 GMT,,,9,,6841747d.9,2,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.543 GMT,,,9,,6841747d.9,3,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on IPv6 address ""::"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.543 GMT,,,8,,6841747d.8,1,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"starting PostgreSQL 16.9 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-5), 64-bit",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.543 GMT,,,8,,6841747d.8,2,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.543 GMT,,,8,,6841747d.8,3,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on IPv6 address ""::"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.549 GMT,,,8,,6841747d.8,4,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on Unix socket ""/run/postgresql/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.550 GMT,,,9,,6841747d.9,4,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on Unix socket ""/run/postgresql/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.552 GMT,,,9,,6841747d.9,4,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on Unix socket ""/run/postgresql/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.554 GMT,,,8,,6841747d.8,5,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.555 GMT,,,9,,6841747d.9,5,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.556 GMT,,,9,,6841747d.9,5,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.557 GMT,,,13,,6841747d.d,1,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"database system was shut down at 2025-06-05 10:38:26 GMT",,,,,,,,,"","startup",,0
+2025-06-05 10:42:05.557 GMT,,,14,,6841747d.e,1,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"database system was shut down at 2025-06-05 10:38:26 GMT",,,,,,,,,"","startup",,0
+2025-06-05 10:42:05.558 GMT,,,13,,6841747d.d,1,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"database system was shut down at 2025-06-05 10:38:26 GMT",,,,,,,,,"","startup",,0
+2025-06-05 10:42:05.564 GMT,,,8,,6841747d.8,6,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.564 GMT,,,9,,6841747d.9,6,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:05.565 GMT,,,17,,6841747d.11,1,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"starting pg_failover_slots replica worker",,,,,,,,,"pg_failover_slots worker","pg_failover_slots worker",,0
+2025-06-05 10:42:05.564 GMT,,,19,,6841747d.13,1,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"starting pg_failover_slots replica worker",,,,,,,,,"pg_failover_slots worker","pg_failover_slots worker",,0
+2025-06-05 10:42:05.565 GMT,,,19,,6841747d.13,1,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"starting pg_failover_slots replica worker",,,,,,,,,"pg_failover_slots worker","pg_failover_slots worker",,0
+2025-06-05 10:42:05.565 GMT,,,9,,6841747d.9,6,,2025-06-05 10:42:05 GMT,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2025-06-05 10:42:13.121 GMT,"postgres","postgres",41,"[local]",68417485.29,1,"idle",2025-06-05 10:42:13 GMT,4/2,0,LOG,00000,"statement: SELECT d.datname as ""Name"",
+       pg_catalog.pg_get_userbyid(d.datdba) as ""Owner"",
+       pg_catalog.pg_encoding_to_char(d.encoding) as ""Encoding"",
+       d.datcollate as ""Collate"",
+       d.datctype as ""Ctype"",
+       pg_catalog.array_to_string(d.datacl, E'\n') AS ""Access privileges""
+FROM pg_catalog.pg_database d
+ORDER BY 1;",,,,,,,,,"psql","client backend",,0
+2025-06-05 10:42:21.414 GMT,"postgres","testdb",65,"[local]",6841748d.41,1,"startup",2025-06-05 10:42:21 GMT,4/3,0,FATAL,3D000,"database ""testdb"" does not exist",,,,,,,,,"","client backend",,-362614759724874692

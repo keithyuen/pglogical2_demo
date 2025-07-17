@@ -1,0 +1,33 @@
+2025-06-05 10:47:10.985 GMT,,,9,,684175ae.9,1,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"starting PostgreSQL 16.9 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-5), 64-bit",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.985 GMT,,,9,,684175ae.9,2,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.985 GMT,,,9,,684175ae.9,3,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on IPv6 address ""::"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.985 GMT,,,9,,684175ae.9,1,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"starting PostgreSQL 14.18 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-5), 64-bit",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.985 GMT,,,9,,684175ae.9,2,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.985 GMT,,,9,,684175ae.9,3,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on IPv6 address ""::"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.990 GMT,,,8,,684175ae.8,1,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"starting PostgreSQL 14.18 on aarch64-unknown-linux-gnu, compiled by gcc (GCC) 11.5.0 20240719 (Red Hat 11.5.0-5), 64-bit",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.990 GMT,,,8,,684175ae.8,2,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on IPv4 address ""0.0.0.0"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.990 GMT,,,8,,684175ae.8,3,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on IPv6 address ""::"", port 5432",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.990 GMT,,,9,,684175ae.9,4,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on Unix socket ""/run/postgresql/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.991 GMT,,,9,,684175ae.9,4,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on Unix socket ""/run/postgresql/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.996 GMT,,,9,,684175ae.9,5,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.997 GMT,,,8,,684175ae.8,4,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on Unix socket ""/run/postgresql/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:10.998 GMT,,,13,,684175ae.d,1,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"database system was shut down at 2025-06-05 10:38:26 GMT",,,,,,,,,"","startup",,0
+2025-06-05 10:47:10.998 GMT,,,9,,684175ae.9,5,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:11.000 GMT,,,15,,684175af.f,1,,2025-06-05 10:47:11 GMT,,0,LOG,00000,"database system was shut down at 2025-06-05 10:38:26 GMT",,,,,,,,,"","startup",,0
+2025-06-05 10:47:11.001 GMT,,,8,,684175ae.8,5,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"listening on Unix socket ""/tmp/.s.PGSQL.5432""",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:11.002 GMT,,,12,,684175af.c,1,,2025-06-05 10:47:11 GMT,,0,LOG,00000,"database system was shut down at 2025-06-05 10:38:26 GMT",,,,,,,,,"","startup",,0
+2025-06-05 10:47:11.003 GMT,,,9,,684175ae.9,6,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:11.003 GMT,,,19,,684175af.13,1,,2025-06-05 10:47:11 GMT,,0,LOG,00000,"starting pg_failover_slots replica worker",,,,,,,,,"pg_failover_slots worker","pg_failover_slots worker",,0
+2025-06-05 10:47:11.003 GMT,,,9,,684175ae.9,6,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:11.004 GMT,,,18,,684175af.12,1,,2025-06-05 10:47:11 GMT,,0,LOG,00000,"starting pg_failover_slots replica worker",,,,,,,,,"pg_failover_slots worker","pg_failover_slots worker",,0
+2025-06-05 10:47:11.006 GMT,,,8,,684175ae.8,6,,2025-06-05 10:47:10 GMT,,0,LOG,00000,"database system is ready to accept connections",,,,,,,,,"","postmaster",,0
+2025-06-05 10:47:11.006 GMT,,,18,,684175af.12,1,,2025-06-05 10:47:11 GMT,,0,LOG,00000,"starting pg_failover_slots replica worker",,,,,,,,,"pg_failover_slots worker","pg_failover_slots worker",,0
+2025-06-05 10:47:11.996 GMT,"postgres","postgres",24,"[local]",684175af.18,1,"idle",2025-06-05 10:47:11 GMT,4/3,0,LOG,00000,"statement: SELECT 1 FROM pg_database WHERE datname = 'testdb'",,,,,,,,,"psql","client backend",,0
+2025-06-05 10:47:11.996 GMT,"postgres","postgres",25,"[local]",684175af.19,1,"idle",2025-06-05 10:47:11 GMT,4/3,0,LOG,00000,"statement: SELECT 1 FROM pg_database WHERE datname = 'testdb'",,,,,,,,,"psql","client backend",,0
+2025-06-05 10:47:12.000 GMT,"postgres","postgres",26,"[local]",684175af.1a,1,"idle",2025-06-05 10:47:11 GMT,4/5,0,LOG,00000,"statement: CREATE DATABASE testdb;",,,,,,,,,"psql","client backend",,0
+2025-06-05 10:47:12.000 GMT,"postgres","postgres",27,"[local]",684175af.1b,1,"idle",2025-06-05 10:47:11 GMT,4/5,0,LOG,00000,"statement: CREATE DATABASE testdb;",,,,,,,,,"psql","client backend",,0
+2025-06-05 10:47:12.294 GMT,"postgres","postgres",29,"[local]",684175b0.1d,1,"idle",2025-06-05 10:47:12 GMT,4/7,0,LOG,00000,"statement: CREATE ROLE rep_user WITH REPLICATION LOGIN PASSWORD 'password';",,,,,,,,,"psql","client backend",,0
+2025-06-05 10:47:12.295 GMT,"postgres","postgres",28,"[local]",684175b0.1c,1,"idle",2025-06-05 10:47:12 GMT,4/7,0,LOG,00000,"statement: CREATE DATABASE testdb;",,,,,,,,,"psql","client backend",,0
+2025-06-05 10:47:12.295 GMT,"postgres","postgres",28,"[local]",684175b0.1c,2,"CREATE DATABASE",2025-06-05 10:47:12 GMT,4/7,0,ERROR,42P04,"database ""testdb"" already exists",,,,,,"CREATE DATABASE testdb;",,,"psql","client backend",,0
+2025-06-05 10:47:12.297 GMT,"postgres","postgres",29,"[local]",684175b0.1d,2,"idle",2025-06-05 10:47:12 GMT,4/8,0,LOG,00000,"statement: CREATE DATABASE testdb;",,,,,,,,,"psql","client backend",,0
+2025-06-05 10:47:12.297 GMT,"postgres","postgres",29,"[local]",684175b0.1d,3,"CREATE DATABASE",2025-06-05 10:47:12 GMT,4/8,0,ERROR,42P04,"database ""testdb"" already exists",,,,,,"CREATE DATABASE testdb;",,,"psql","client backend",,-5238101236384778286
